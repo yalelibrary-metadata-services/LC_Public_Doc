@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Link Checker Reports - Error Handling and Captured Data</title>
+<title>Link Checker Reports - Code and Process Description</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Link Checker Reports</span>
     </a>
   </div>
@@ -87,29 +87,25 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-process--documentation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Process &amp; Documentation</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-process--documentation">    
         <li>
-    <a class="dropdown-item" href="../Documentation/01_code_process.html">
+    <a class="dropdown-item" href="./01_code_process.html">
  <span class="dropdown-text">Code and Process Description</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Documentation/02_data_collection_storage.html">
+    <a class="dropdown-item" href="./02_data_collection_storage.html">
  <span class="dropdown-text">Data Collection and Storage</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Documentation/03_error_handling.html">
+    <a class="dropdown-item" href="./03_error_handling.html">
  <span class="dropdown-text">Error Handling and Captured Data</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Documentation/04_recomendations_librarians.html">
+    <a class="dropdown-item" href="./04_recomendations_librarians.html">
  <span class="dropdown-text">Recommendations and Librarian Guidance</span></a>
   </li>  
     </ul>
@@ -121,12 +117,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-reports">    
         <li class="dropdown-header">All Units</li>
         <li>
-    <a class="dropdown-item" href="../Reports/All_Units/2025-05-01_Link_Checker_Report_All_Units.html">
+    <a class="dropdown-item" href="./Reports/All_Units/2025-05-01.html">
  <span class="dropdown-text">2025-05-01 Link Checker Report (All Units)</span></a>
   </li>  
         <li class="dropdown-header">Individual Units</li>
         <li>
-    <a class="dropdown-item" href="../Reports/Individual_Units/2025-05-01_HEB.html">
+    <a class="dropdown-item" href="./Reports/Individual_Units/2025-05-01_HEB.html">
  <span class="dropdown-text">2025-05-01, Link Checker Report for HEB</span></a>
   </li>  
     </ul>
@@ -146,30 +142,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Error Handling and Captured Data</h1>
-</div>
+<!-- 
+  This is the default Quarto title block header (customize as required) 
+  Learn more about Pandoc template syntax here: https://pandoc.org/MANUAL.html#templates
+-->
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<header id="title-block-header">
+  <h1 id="title">Code and Process Description</h1>
+  <div id="page-properties">
+    <div class="details">
+      <div>Created By Author</div>
+      <div>Yesterday at 12:00 PM • 8 min read</div>
+    </div>
   </div>
-  
-
-
 </header>
 
 
-<p>Several types of errors are monitored:</p>
-<p><strong>HTTP Status Errors:</strong> URLs returning non-2xx HTTP codes (e.g., 400, 404) are flagged.</p>
-<p><strong>Connection and Timeout Errors:</strong> Failures during the HTTP request or Selenium page load trigger error capture.</p>
-<p><strong>Selenium-Specific Errors:</strong> If the document does not reach a “complete” state within a specified timeout, a READY_STATE_TIMEOUT_ERROR is raised.</p>
-<p>Each error, along with contextual data (e.g., page source when available), is recorded. This granular logging is useful for troubleshooting and for determining whether the error is a transient network hiccup or a persistent issue needing manual remediation.</p>
+
+<p>The automated link checker is built using several Python modules and libraries. Here is an outline of the flow and key components:</p>
+<p><strong>Input Processing and URL Checking</strong></p>
+<p>Input and Caching:</p>
+<p>The main script (see <code>__init__.py</code> ​) reads URLs from an input CSV file containing bibliographic records, the domain, URL, and a location identifier. A caching dictionary (url_list) is used to avoid re-checking duplicate URLs.</p>
+<p>Multiple Verification Methods:</p>
+<p>Two different methods validate the URLs:</p>
+<ul>
+<li><p>Requests-based Check: Uses the Python requests library to send a HEAD request. (See <code>url_status.py</code>)</p></li>
+<li><p>Selenium-based Check: In case of non-successful responses or exceptions from Requests, the system falls back to Selenium. This approach bypasses bot-detection and allows JavaScript to load, ensuring that the page’s final state is accurately determined.</p></li>
+</ul>
+<p><strong>Error Handling and Fallbacks:</strong></p>
+<p>The function select_code_and_error intelligently decides which method’s result to store. If both methods encounter issues, the error messages are captured and stored as a JSON string so that both the request and Selenium outputs are recorded.</p>
+<p><strong>Data Recording and Duplication Avoidance</strong></p>
+<p>Database and CSV Output:</p>
+<p>The system uses an SQLite database (configured via SQLAlchemy) to store verification results. Each check record is saved in the bib_url_status_report table with columns for bibliographic ID, URL, domain, status code, error details, unit, and the date/time of the check. Additionally, results are recorded in a CSV file for legacy use. (Refer to database.py ​and models.py ​for details.)</p>
+<p><strong>Selenium and Driver Configuration</strong></p>
+<p>Driver Setup:</p>
+<p>The Selenium driver is configured in driver.py ​. Options include headless operation (optionally disabled to view the browser) and logging preferences are set for troubleshooting and performance analysis.</p>
+<p>Page Ready and Network Logs:</p>
+<p>The Selenium method uses JavaScript execution to check the document’s ready state and extract a status code from browser logs. If the expected state isn’t reached within a timeout, a custom exception is raised (see <code>exception.py</code>).</p>
+<p><strong>Error Recording and Notification</strong></p>
+<p>Error Capturing: Any errors encountered during URL processing (e.g., timeouts, status code not found, connection issues) are captured and logged using the record_error function in errors.py ​. This ensures that all anomalies are recorded along with the URL’s metadata.</p>
+<p><strong>Email Notifications</strong></p>
+<p>The module <code>notifications.py</code></p>
+<p>provides functions to format and send email notifications to unit contacts. An email report (as exemplified in email_report_msu_manager.pdf) contains a summary of error counts by type, making it actionable for librarians and unit managers.</p>
 
 
 

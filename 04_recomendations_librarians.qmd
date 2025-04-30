@@ -1,7 +1,6 @@
 ---
 title: "Recommendations and Librarian Guidance"
-format:
-  html: default
+format: confluence-html
 ---
 
 

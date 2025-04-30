@@ -1,7 +1,6 @@
 ---
 title: "Error Handling and Captured Data"
-format:
-  html: default
+format: confluence-html
 ---
 
 Several types of errors are monitored:

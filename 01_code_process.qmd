@@ -1,0 +1,53 @@
+---
+title: "Code and Process Description"
+format: confluence-html
+---
+
+The automated link checker is built using several Python modules and libraries. Here is an outline of the flow and key components:
+
+**Input Processing and URL Checking**
+
+Input and Caching:
+
+The main script (see `__init__.py` ​) reads URLs from an input CSV file containing bibliographic records, the domain, URL, and a location identifier. A caching dictionary (url_list) is used to avoid re-checking duplicate URLs.
+
+Multiple Verification Methods:
+
+Two different methods validate the URLs:
+
+- Requests-based Check: Uses the Python requests library to send a HEAD request.
+(See `url_status.py`)
+
+- Selenium-based Check: In case of non-successful responses or exceptions from Requests, the system falls back to Selenium. This approach bypasses bot-detection and allows JavaScript to load, ensuring that the page’s final state is accurately determined.
+
+**Error Handling and Fallbacks:**
+
+The function select_code_and_error intelligently decides which method’s result to store. If both methods encounter issues, the error messages are captured and stored as a JSON string so that both the request and Selenium outputs are recorded.
+
+**Data Recording and Duplication Avoidance**
+
+Database and CSV Output:
+
+The system uses an SQLite database (configured via SQLAlchemy) to store verification results. Each check record is saved in the bib_url_status_report table with columns for bibliographic ID, URL, domain, status code, error details, unit, and the date/time of the check. Additionally, results are recorded in a CSV file for legacy use.
+(Refer to database.py ​and models.py ​for details.)
+
+**Selenium and Driver Configuration**
+
+Driver Setup:
+
+The Selenium driver is configured in driver.py ​. Options include headless operation (optionally disabled to view the browser) and logging preferences are set for troubleshooting and performance analysis.
+
+Page Ready and Network Logs:
+
+The Selenium method uses JavaScript execution to check the document’s ready state and extract a status code from browser logs. If the expected state isn’t reached within a timeout, a custom exception is raised (see `exception.py`).
+
+**Error Recording and Notification**
+
+Error Capturing:
+Any errors encountered during URL processing (e.g., timeouts, status code not found, connection issues) are captured and logged using the record_error function in errors.py ​. This ensures that all anomalies are recorded along with the URL’s metadata.
+
+**Email Notifications**
+
+The module `notifications.py`
+
+ provides functions to format and send email notifications to unit contacts. An email report (as exemplified in email_report_msu_manager.pdf) contains a summary of error counts by type, making it actionable for librarians and unit managers.

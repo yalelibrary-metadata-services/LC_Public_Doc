@@ -1,0 +1,528 @@
+<h1 id="overview">Overview<ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:local-id="a6aa6f25-0bee-4a7f-929b-71fcb7eba592" ac:macro-id="d2cb5be1217ae6e086bc60005e9d27b7"><ac:parameter ac:name="">overview</ac:parameter></ac:structured-macro></h1>
+<h3 id="summary-for-unit-heb">Summary for Unit: <code>HEB</code><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:local-id="a6aa6f25-0bee-4a7f-929b-71fcb7eba592" ac:macro-id="d2cb5be1217ae6e086bc60005e9d27b7"><ac:parameter ac:name="">summary-for-unit-heb</ac:parameter></ac:structured-macro></h3>
+<ul>
+<li>Total Links Checked: 648</li>
+<li>Total Errors: 289</li>
+<li>Successful Links: 359</li>
+<li>Error Rate: 44.60%</li>
+</ul>
+<h1 id="links-and-errors-by-domain">Links and Errors by Domain<ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:local-id="a6aa6f25-0bee-4a7f-929b-71fcb7eba592" ac:macro-id="d2cb5be1217ae6e086bc60005e9d27b7"><ac:parameter ac:name="">links-and-errors-by-domain</ac:parameter></ac:structured-macro></h1>
+<div class="cell" data-execution_count="16">
+<div class="cell-output cell-output-display" data-execution_count="16">
+<div>
+<table class="dataframe" data-quarto-postprocess="true" data-border="1" style="">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Domain</th>
+<th data-quarto-table-cell-role="th">Status</th>
+<th data-quarto-table-cell-role="th">Error_Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>www.yiddishbookcenter.org</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>412</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>yizkor.nypl.org</td>
+<td>{"requests": "404", "selenium": "404"}</td>
+<td>130</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>yizkor.nypl.org</td>
+<td>404</td>
+<td>67</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>www.archive.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>57</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>www.yiddishbookcenter.org</td>
+<td>403</td>
+<td>33</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>www.hebrewbooks.org</td>
+<td>403</td>
+<td>30</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>www.hebrewbooks.org</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>web.nli.org.il</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>beinecke.library.yale.edu</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>www.cbs.gov.il</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>library.osu.edu.proxy.lib.ohio-state.edu</td>
+<td>unknown_status</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>www.imdb.com</td>
+<td>403</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12</td>
+<td>ledorot.gov.il</td>
+<td>{"requests": "None", "selenium": "None"}</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>web.nli.org.il</td>
+<td>403</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">14</td>
+<td>www.jpress.org.il</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>hdl.handle.net</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16</td>
+<td>www.jstor.org</td>
+<td>403</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>www.jstor.org</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>bibpurl.oclc.org</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">19</td>
+<td>catalog.hathitrust.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">20</td>
+<td>digital.cjh.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">21</td>
+<td>digital.library.yale.edu</td>
+<td>{"requests": "404", "selenium": "404"}</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">22</td>
+<td>eu01.alma.exlibrisgroup.com</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">23</td>
+<td>ledorot.gov.il</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">24</td>
+<td>libraries.indiana.edu</td>
+<td>403</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">25</td>
+<td>libraries.indiana.edu</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">26</td>
+<td>muse.jhu.edu</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">27</td>
+<td>primage.tau.ac.il</td>
+<td>{"requests": "None", "selenium": "None"}</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">28</td>
+<td>reshit.hartman.org.il</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">29</td>
+<td>www.btselem.org</td>
+<td>{"requests": "429", "selenium": "429"}</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">30</td>
+<td>www.cbs.gov.il</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">31</td>
+<td>www.hebrewbooks.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">32</td>
+<td>www.yiddishbookcenter.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">33</td>
+<td>bibpurl.oclc.org</td>
+<td>403</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">34</td>
+<td>bibpurl.oclc.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">35</td>
+<td>books.google.com</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">36</td>
+<td>digital.casalini.it</td>
+<td>502</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">37</td>
+<td>digital.library.yale.edu</td>
+<td>404</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">38</td>
+<td>eu01.alma.exlibrisgroup.com</td>
+<td>403</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">39</td>
+<td>hdl.handle.net</td>
+<td>unknown_status</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">40</td>
+<td>hdl.library.upenn.edu</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">41</td>
+<td>library.osu.edu</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">42</td>
+<td>nbn-resolving.de</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">43</td>
+<td>openlibrary.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">44</td>
+<td>primage.tau.ac.il</td>
+<td>Exception: &lt;class 'urllib3.exceptions.ReadTime...</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">45</td>
+<td>reshit.hartman.org.il</td>
+<td>403</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">46</td>
+<td>web.archive.org</td>
+<td>Exception: &lt;class 'urllib3.exceptions.ReadTime...</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">47</td>
+<td>www.bet-alpha-editions.com</td>
+<td>403</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">48</td>
+<td>www.bet-alpha-editions.com</td>
+<td>{"requests": "403", "selenium": "403"}</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">49</td>
+<td>www.bet-alpha-editions.com</td>
+<td>{"requests": "403", "selenium": "404"}</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">50</td>
+<td>www.degruyter.com</td>
+<td>202</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">51</td>
+<td>www.jpress.org.il</td>
+<td>403</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">52</td>
+<td>www.jstor.org</td>
+<td>{"requests": "403", "selenium": "None"}</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">53</td>
+<td>www.nli.org.il</td>
+<td>{"requests": "520", "selenium": "None"}</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">54</td>
+<td>yizkor.nypl.org</td>
+<td>Exception: &lt;class 'selenium.common.exceptions....</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="22">
+<div class="cell-output cell-output-display" data-execution_count="22">
+<div>
+<table class="dataframe" data-quarto-postprocess="true" data-border="1" style="">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">rn</th>
+<th data-quarto-table-cell-role="th">ID</th>
+<th data-quarto-table-cell-role="th">Unit</th>
+<th data-quarto-table-cell-role="th">BibID</th>
+<th data-quarto-table-cell-role="th">URL</th>
+<th data-quarto-table-cell-role="th">Status_Requests</th>
+<th data-quarto-table-cell-role="th">Status_Selenium</th>
+<th data-quarto-table-cell-role="th">Error_Requests</th>
+<th data-quarto-table-cell-role="th">Error_Selenium</th>
+<th data-quarto-table-cell-role="th">Check_Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>1</td>
+<td>257251</td>
+<td>HEB</td>
+<td>957687</td>
+<td>http://www.yiddishbookcenter.org/books/browse</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>1</td>
+<td>257252</td>
+<td>HEB</td>
+<td>1010822</td>
+<td>http://www.yiddishbookcenter.org/books/browse</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>1</td>
+<td>257253</td>
+<td>HEB</td>
+<td>1010824</td>
+<td>http://www.yiddishbookcenter.org/books/browse</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>1</td>
+<td>257254</td>
+<td>HEB</td>
+<td>1013941</td>
+<td>http://www.yiddishbookcenter.org/books/browse</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>1</td>
+<td>257255</td>
+<td>HEB</td>
+<td>1026522</td>
+<td>http://www.yiddishbookcenter.org/books/browse</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">287</td>
+<td>1</td>
+<td>257539</td>
+<td>HEB</td>
+<td>16046097</td>
+<td>https://www.yiddishbookcenter.org/collections/...</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">288</td>
+<td>1</td>
+<td>257540</td>
+<td>HEB</td>
+<td>16088777</td>
+<td>http://www.yiddishbookcenter.org/collections/y...</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">289</td>
+<td>1</td>
+<td>257541</td>
+<td>HEB</td>
+<td>16212276</td>
+<td>http://www.yiddishbookcenter.org/collections/y...</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">290</td>
+<td>1</td>
+<td>257542</td>
+<td>HEB</td>
+<td>16397286</td>
+<td>https://www.yiddishbookcenter.org/collections/...</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">291</td>
+<td>1</td>
+<td>257543</td>
+<td>HEB</td>
+<td>16397962</td>
+<td>https://www.yiddishbookcenter.org/collections/...</td>
+<td>403.0</td>
+<td>403</td>
+<td>None</td>
+<td>None</td>
+<td>2025-04-16 16:12:36.711612</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
+
+</div>

@@ -1,0 +1,4 @@
+- source: project
+  confluence:
+    - id: '293765128'
+      url: 'https://yalelibrary.atlassian.net/wiki/spaces/~712020f4e7f7ebdd074f61ab698475061add47/pages/293765128'

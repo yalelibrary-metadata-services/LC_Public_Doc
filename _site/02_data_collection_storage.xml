@@ -1,0 +1,11 @@
+<p>The script collects several key pieces of information per URL:</p>
+<ul>
+<li><p>URL Status Codes: Both the Requests and Selenium responses are logged, with the healthier (successful) response prioritized.</p></li>
+<li><p>Error Information: Any issues encountered (e.g., timeout, connection error, inability to reach complete page load) are serialized into JSON and stored.</p></li>
+<li><p>Unit Identification: Each URL is linked to a specific unit so that aggregate reporting per unit is easily generated.</p></li>
+<li><p>Timestamps: Verification times are recorded to check data freshness and to allow rechecking only when necessary.</p></li>
+</ul>
+<p>These data points are stored in the SQLite database and exported to CSV for manual review and for feeding into visualization scripts.</p>
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
+
+</div>

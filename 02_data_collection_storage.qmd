@@ -1,22 +1,20 @@
 ---
-title: "Link Checker Report"
-format:
-  html: default
+title: "Data Collection and Storage"
+format: confluence-html
 ---
 
-Data Collection and Storage
 The script collects several key pieces of information per URL:
 
-URL Status Codes:
+- URL Status Codes:
 Both the Requests and Selenium responses are logged, with the healthier (successful) response prioritized.
 
-Error Information:
+- Error Information:
 Any issues encountered (e.g., timeout, connection error, inability to reach complete page load) are serialized into JSON and stored.
 
-Unit Identification:
+- Unit Identification:
 Each URL is linked to a specific unit so that aggregate reporting per unit is easily generated.
 
-Timestamps:
+- Timestamps:
 Verification times are recorded to check data freshness and to allow rechecking only when necessary.
 
 These data points are stored in the SQLite database and exported to CSV for manual review and for feeding into visualization scripts.

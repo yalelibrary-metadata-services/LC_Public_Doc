@@ -1,7 +1,6 @@
 ---
 title: "Link Checker Report"
-format:
-  html: default
+format: confluence-html
 ---
 
 This report summarizes the results of the automated link checker designed to verify the health of URLs associated with catalog records. The report is intended for both management and unit-specific analysis. It details:

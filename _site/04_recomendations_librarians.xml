@@ -1,0 +1,23 @@
+<p>For librarians reviewing these reports:</p>
+<p><strong>Interpretation:</strong></p>
+<ul>
+<li>Successful Links,
+<ul>
+<li>Codes 200-299:</li>
+<li>High numbers here indicate good data quality.</li>
+</ul></li>
+<li>Error Links,
+<ul>
+<li>Codes 100-199, 300-399, 400-499, 500-599, Connection error, Timeout Error, Unknown:</li>
+<li>These need investigation. For example, a high volume of 404 errors could indicate outdated links in the catalog record.</li>
+</ul></li>
+</ul>
+<p><strong>Further Action:</strong></p>
+<ul>
+<li><p>Consider scheduling periodic re-validation to ensure the catalog remains current.</p></li>
+<li><p>Use detailed domain error charts to reach out to specific content providers or IT support teams for external sites.</p></li>
+<li><p>The detailed error logs (including error types and timestamps) can support claims for bulk corrections if many records are affected.</p></li>
+</ul>
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
+
+</div>
