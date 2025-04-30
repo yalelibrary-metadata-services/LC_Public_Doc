@@ -1,0 +1,15 @@
+---
+title: "Link Checker Report"
+format:
+  html: default
+---
+
+This report summarizes the results of the automated link checker designed to verify the health of URLs associated with catalog records. The report is intended for both management and unit-specific analysis. It details:
+
+- Working vs. Non-working Links: A breakdown of URLs that are functional versus those that encounter errors.
+
+- Data Aggregation: Totals and aggregated counts of errors by unit and by domain.
+
+- Visualizations: Graphs showing distributions of errors, detailed tables, and bar charts for quick insight.
+
+This documentation explains the underlying code processes, the database design (using Voyager data structures), and error capture mechanisms, along with recommendations for librarian interpretation and follow-up.

@@ -1,0 +1,18 @@
+---
+title: "Error Handling and Captured Data"
+format:
+  html: default
+---
+
+Several types of errors are monitored:
+
+**HTTP Status Errors:**
+URLs returning non-2xx HTTP codes (e.g., 400, 404) are flagged.
+
+**Connection and Timeout Errors:**
+Failures during the HTTP request or Selenium page load trigger error capture.
+
+**Selenium-Specific Errors:**
+If the document does not reach a “complete” state within a specified timeout, a READY_STATE_TIMEOUT_ERROR is raised.
+
+Each error, along with contextual data (e.g., page source when available), is recorded. This granular logging is useful for troubleshooting and for determining whether the error is a transient network hiccup or a persistent issue needing manual remediation.

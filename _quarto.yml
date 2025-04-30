@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Link Checker Reports"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Process & Documentation"
+        menu:
+          - text: "Code and Process Description"
+            href: Documentation/01_code_process.qmd
+          - text: "Data Collection and Storage"
+            href: Documentation/02_data_collection_storage.qmd
+          - text: "Error Handling and Captured Data"
+            href: Documentation/03_error_handling.qmd
+          - text: "Recommendations and Librarian Guidance"
+            href: Documentation/04_recomendations_librarians.qmd
+      - text: "Reports"
+        menu:
+          # --- All Units header (non-clickable) ---
+          - text: "All Units"
+          - text: "2025-05-01 Link Checker Report (All Units)"
+            href: Reports/All_Units/2025-05-01_Link_Checker_Report_All_Units.ipynb
+          # --- Individual Units header (non-clickable) ---
+          - text: "Individual Units"
+          - text: "2025-05-01, Link Checker Report for HEB"
+            href: Reports/Individual_Units/2025-05-01_HEB.ipynb
+
+format:
+  html:
+    inherit: default
+    confluence:
+      server: "https://yalelibrary.atlassian.net/"
+      user: irma.fraticelli@yale.edu
+      space: "~712020f4e7f7ebdd074f61ab698475061add47"
+      parent: "/Link-Checker"
+      # optional: restrict to single page or multi-page site
+      # page-tree-order: true   # mirror your file structure
+
+execute:
+  echo: false
+  cache: true
